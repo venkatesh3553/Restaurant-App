@@ -1,0 +1,41 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head {
+  font-weight: bold;
+  font-family: Roboto;
+  margin: 0px;
+}
+.order-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: Roboto;
+  padding: 10px;
+}
+.cart-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+.item-count {
+  color: red;
+}
+
+@media only screen and (max-width: 567px) {
+  .head {
+    font-size: 16px;
+  }
+  .order-head {
+    font-size: 12px;
+  }
+  .order-container {
+    width: 50%;
+  }
+}

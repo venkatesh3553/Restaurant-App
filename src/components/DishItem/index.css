@@ -1,0 +1,124 @@
+.dish-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.dishName-and-price {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.all-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dishDescription {
+  color: gray;
+  font-size: 12px;
+}
+.dishPrice {
+  margin-left: 8px;
+  color: green;
+  font-style: italic;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.container {
+  width: 50%;
+  height: 50%;
+}
+.dishName {
+  font-weight: bold;
+  font-family: Roboto;
+  margin: 0px;
+  font-size: 18px;
+}
+
+.dishCalories {
+  font-weight: bold;
+  color: orange;
+  font-family: Roboto;
+}
+.button-container {
+  background-color: rgb(16, 144, 63);
+  border-radius: 20px;
+  height: 35px;
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
+.button {
+  border: 0px;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+}
+.count {
+  font-weight: bold;
+  color: white;
+}
+.item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+  width: 50%;
+}
+.dish-items-container {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.quantity {
+  color: white;
+  font-weight: bold;
+}
+.non-veg-border {
+  color: green;
+}
+.non-veg-round {
+  color: red;
+}
+.not {
+  margin: 0px;
+}
+@media only screen and (max-width: 567px) {
+  .dish-img {
+    height: 70px;
+    width: 70px;
+  }
+  .dishName {
+    font-size: 12px;
+  }
+  .dishCalories {
+    font-size: 12px;
+  }
+  .dish-items-container {
+    width: 70%;
+  }
+  .button-container {
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+  }
+  .dishDescription {
+    font-size: 8px;
+  }
+  .not {
+    font-size: 10px;
+    margin: 0px;
+  }
+}
